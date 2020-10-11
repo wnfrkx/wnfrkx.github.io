@@ -1,0 +1,47 @@
+html, body {
+				margin: 0px;
+				height: 100%;
+				background-color: #fafafa;
+}
+
+h1 {
+				font-family: Lobster;
+				font-size: 10vw;
+				}
+
+#earth {
+				background-image: url('https://aggnuch.weebly.com/uploads/5/1/3/4/51343587/earth-science_orig.png');
+				background-size: 50vw;
+				height: 50vw;
+				width: 50vw;
+}
+
+button {
+				width: 16vw;
+				height: 16vw;
+				border-radius: 16vw;
+				padding: auto;
+				margin: auto;
+				border: 1vw solid black;
+				background-size: 100%;
+				background-color: #fafafa;
+}
+
+#a { background-image: url('atmo.png'); }
+#b { background-image: url('bio.png'); }
+#g { background-image: url('geo.png'); }
+#h { background-image: url('hydro.png'); }
+
+.text {
+				font-family: Raleway;
+				font-style: italic;
+				font-size: 2.5vw;
+				}
+				
+#place {
+				border: 1vw solid black;
+				padding: 1vw;
+				margin-top: 1vw;
+				width: 50%;
+				line-height: 1.5;
+				}

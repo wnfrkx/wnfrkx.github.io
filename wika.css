@@ -1,0 +1,56 @@
+html, body {
+				margin: 0px;
+				height: 100vw;
+				}
+				
+#first {
+background-image: url('https://wallpapercave.com/wp/JYodMo6.jpg');
+background-size: 100vw;
+width: 100vw;
+height: 100vw;
+background-repeat: no-repeat;
+font-size: 8vw;
+padding: auto;
+margin: 0%;
+text-align: center;
+position: absolute;
+top: 0%; left: 0%;
+}
+
+#welc {
+				background-color: rgba(255,255,51,0.8);
+				width: 60%;
+				height: auto;
+				margin: 10% 0%;
+				padding: 5% 0;
+				font-family: 'Raleway', sans-serif;
+}
+
+.h {
+				font-family: 'EB Garamond', serif;
+				font-size: 4vw;
+				line-height: 1.5;
+				text-align: justify;
+				}
+				
+.i {
+				font-family: 'Raleway', sans-serif;
+				font-size: 6vw;
+				line-height: 1.3;
+				font-weight: bold;
+				}
+				
+.b {
+				font-family: 'Raleway', sans-serif;
+				font-size: 3vw;
+				line-height: 1.6;
+				font-style: italic;
+				}
+
+#second {
+				position: absolute;
+				top: 56.25vw;
+				left: 0%;
+				margin: 0% 15%;
+				padding: 2vw;
+}

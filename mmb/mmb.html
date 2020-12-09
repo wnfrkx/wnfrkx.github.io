@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+	<head>
+		<title>Mathementals - An App by Aggnuch</title>
+		<link rel="stylesheet" href="mmb.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="shortcut icon" href="mmb fav.png">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+		<script src="mmb.js"></script>
+	</head>
+	<body bgcolor="#fafafa" onload="start()" onkeydown="mayNapindot(event)">
+		<center>
+			<div id="mmblogo">
+				<img src="mmb fav.png" width="300">
+				<p id="loading">Loading...</p>
+			</div>
+			<div id="level">
+				<div id="levNum">1</div>
+				<span id="expNum"></span> exp</div>
+			</div>
+			<div id="menu" onclick="menu()"><img src="menu.png" style="width:60px;display:inline-block;margin-right:10px"><font id="menuText">Menu</font></div>
+			<div id="quizholder">
+				<h1 id="quizTitle">tite</h1>
+				<p id="equation"></p>
+				<input id="answer" type="string"></input><br><br><br>
+				<div class="num" id="isa" onclick="clicked(1)">1</div>
+				<div class="num" id="dal" onclick="clicked(2)">2</div>
+				<div class="num" id="tat" onclick="clicked(3)">3</div>
+				<div class="num" id="apa" onclick="clicked(4)">4</div>
+				<div class="num" id="lim" onclick="clicked(5)">5</div><br>
+				<div class="num" id="ani" onclick="clicked(6)">6</div>
+				<div class="num" id="pit" onclick="clicked(7)">7</div>
+				<div class="num" id="wal" onclick="clicked(8)">8</div>
+				<div class="num" id="siy" onclick="clicked(9)">9</div>
+				<div class="num" id="sam" onclick="clicked(0)">0</div><br>
+				<div class="num" id="dec" onclick="clicked('r')">r</div>
+				<div class="num" id="min" onclick="clicked('-')">-</div>
+				<div class="num" id="dec" onclick="clicked('.')">.</div>
+				<div class="num" id="cle" onclick="clicked('cle')">Clear</div>
+				<div class="num" id="ent" onclick="clicked('ent')">Enter</div>
+			</div>
+			<div id="menuSel">
+				<h1>Menu</h1>
+				<div class="indivSel" onclick="setMode(1)" id="addSel"><img src="add.png" class="uiLogo"><br>Addition</div>
+				<div class="indivSel" onclick="setMode(2)" id="subtSel"><img src="subt.png" class="uiLogo"><br>Subtraction</div>
+				<div class="indivSel" onclick="setMode(3)" id="multSel"><img src="mult.png" class="uiLogo"><br>Multiplication</div>
+				<div class="indivSel" onclick="setMode(4)" id="divSel"><img src="div.png" class="uiLogo"><br>Division</div><br>
+				<div class="indivSel" onclick="setMode(5)" id="mixSel"><img src="mix.png" class="uiLogo"><br>Mix</div>
+			</div>
+			<form id="gameSel" action="">
+				<h1>Select Difficulty</h1>
+				<input type="radio" name="digits" value="1"><label for="1">Level 0</label><br>
+				<input type="radio" name="digits" value="2"><label for="2">Level 1</label><br>
+				<input type="radio" name="digits" value="3"><label for="3">Level 2</label><br>
+				<input type="radio" name="digits" value="4"><label for="4">Level 3</label><br>
+				<input type="radio" name="digits" value="5"><label for="5">Level 4</label><br>
+				<input type="radio" name="digits" value="6"><label for="6">Level 5</label><br><br>
+				<span id="remallow">Allow remainders? <input type="radio" name="remallow" value="yes"><label for="yes">Yes</label>
+				<input type="radio" name="remallow" value="no"><label for="no">No</label><br><b>Tip:</b> Use the 'r' button or type 'r' to indicate the remainder.<br>Example: 5r6 for "5 remainder 6"<br><br></span>
+				<div onclick="letsGo()" class="button">Let's Go!</div><br>
+				<div onclick="menu()" class="button">Back</div>
+			</form>
+		</center>
+	</body>
+</html>

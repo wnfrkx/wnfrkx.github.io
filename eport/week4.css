@@ -1,0 +1,67 @@
+#everything {
+	background-image: url('media/Background 4.png');
+	background-size: 100% auto;
+	background-attachment: fixed;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+@font-face {
+font-family: "Rubber Stamp for Cu";
+src: url("wnfrkx.github.io/eport/fonts/2n4/rubberstamp-qw-96-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Isabel Black";
+src: url("wnfrkx.github.io/eport/fonts/2n4/isabel-black-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Glegoo";
+src: url("wnfrkx.github.io/eport/fonts/2n4/glegoo-regular-webfont.woff") format("woff");
+}
+
+.x486-523 { background-image: url('frame/486x523.png'); }
+.x992-109 { background-image: url('frame/992x109 4.png'); }
+.x992-178 { background-image: url('frame/992x178 4.png'); }
+.x1012-450 { background-image: url('frame/1012x450 4.png'); }
+.x1080-656 { background-image: url('frame/1080x656.png'); }
+
+.rubberStamp {
+	font-family: Rubber Stamp for Cu;
+	color: black;
+}
+
+.isBlack {
+	font-family: Isabel Black;
+}
+
+.glegoo {
+	font-family: Glegoo;
+}
+
+#unBruhMomento {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.column-5 {
+	margin: 0% 1%;
+	padding: 0%;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 180px;
+	height: 360px;
+	background-color: white;
+}
+
+.column-4 {
+	margin: 0% 1%;
+	padding: 0%;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 230px;
+	height: 345px;
+	background-color: white;
+}

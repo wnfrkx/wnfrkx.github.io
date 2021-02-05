@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Plate Tectonics and Seafloor Spreading</title>
+		<link rel="stylesheet" href="eport.css">
+		<link rel="stylesheet" href="week4.css">
+		<link rel="favorites icon" href="media/Magma Ball.png">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+		<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+		<script src="eport.js"></script>
+	</head>
+	<body>
+	<div id="everything">
+		<div class="weekContent" style="margin-bottom:20%">
+			<ul>
+				<a class="h" href="home.html"><li>Home</li></a>
+				<a class="h" href="week2.html"><li>Week 2</li></a>
+				<a class="h" href="week3.html"><li>Week 3</li></a>
+				<a class="h" href="week4.html"><li>Week 4</li></a>
+				<a class="h" href="about.html"><li>About</li></a
+			</ul>
+		</div>
+		<div class="weekContent">
+			<center><img src="media/Logo.png" style="height:75%;width:100%"></center>
+		</div>
+		<center>
+			<div class="weekContent">
+				<center><div class="frame x992-178" style="width:100%;padding:2% 0%"><a id="bruh"><p class="header rubberStamp">EXOGENIC VS. ENDOGENIC PROCESSES</p></a></div><br><br>
+				<center><img class="letterP" src="media/Endogenic Vs Exogenic.png" width="992" height="558"></center>
+				<div class="columns" style="min-height:550px;max-height:550px">
+					<div class="column-2 frame x486-523">
+						<p class="weekText glegoo"><b class="bigFont isBlack">Exogenic<br></b>They are events caused by the movement of materials inside the Earth’s inner layers, driven from the Earth’s internal heat. Examples of exogenic processes include diastrophism/deformation, metamorphism, and magnetism.</p>
+					</div><div class="column-2 frame x486-523" style="margin-left:4%">
+						<p class="weekText glegoo"><b class="bigFont isBlack">Endogenic<br></b>These are events that occur on the Earth’s surface. They are affected by external factors like solar energy and other subsystems. Examples are weathering, deposition, sedimentation, and erosion.</p>
+					</div>
+				</div>
+			</div>
+			<div class="weekContent" style="min-height:100%;max-height:100%">
+				<center><div class="frame x992-109" style="width:100%;padding:2% 0%"><a id="momento"><p class="header rubberStamp">CONTINENTAL DRIFT THEORY</p></a></div></center>
+				<div class="frame x1012-450" style="height:450px;position:relative;margin:6% 0%"><span class="absolute" style="width:100%"><img src="media/Continental Drift.png" width="300" height="300" style="vertical-align:top;margin:3% 7%;float:left"><p class="glegoo" style="font-size:30px;margin-right:6%;text-align:justify;text-align-last:right;line-height:1">Proposed in 1915 by Alfred Wagner. The theory states that the Earth's landmass was once a large supercontinent called Pangaea, which then split into Gondwanaland and Laurasia and later developed into new continents we know today.</p></span></div>
+				<center><div id="unBruhMomento">
+					<img class="column-5" src="media/Shoreline Fit.png"><img class="column-5" src="media/Rock Distribution.png"><img class="column-5" src="media/Glacial Sediments.png"><img class="column-5" src="media/Paleoclimate.png"><img class="column-5" src="media/Fossil Distribution.png">
+				</div></center>
+			</div>
+			<div class="weekContent" style="min-height:100%;max-height:100%">
+				<center><div class="frame x992-109" style="width:100%;padding:2% 0%"><a id="momento"><p class="header rubberStamp">SEAFLOOR SPREADING</p></a></div></center>
+				<div class="frame x1012-450" style="margin:6% 0%;height:450px;position:relative"><span class="absolute" style="width:100%"><p class="glegoo" style="font-size:30px;text-align:justify;text-align-last:left;margin-left:7%;line-height:1"><img src="media/Seafloor Spreading.png" width="300" height="300" style="margin:0% 7%;float:right">Formulated using SONAR, oceanic cartographer Marie Tharp created maps of underwater mountain ranges. It was proposed by Harry H. Hess in 1960 based on Tharp’s discovery. The theory states that new oceanic crust is formed due to the rising of hot, less dense material on the ocean floor.</p></span></div>
+				<center><div id="dosBruhMomento">
+					<img class="column-4" src="media/Increasing Distance.png"><img class="column-4" src="media/Age of Rocks.png"><img class="column-4" src="media/Thickness of Rocks.png"><img class="column-4" src="media/Magnetic Anomalies.png">
+				</div></center>
+			</div>
+			<div class="weekContent" style="width:80%;margin:10%">
+				<center><div class="frame x992-109" style="width:100%;padding: 2% 0%"><a id="based"><p class="header rubberStamp">TYPES OF PLATE CONVERGENCES</p></a></center>
+				<div class="frame x1080-656" style="margin-left:0%;min-width:100%;margin-top:6%">
+					<center><iframe style="margin:5%" width="960" height="540" src="https://youtube.com/embed/Ogiimp_nDuk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+				</div>
+			</div>
+			</div>
+		</center>
+		</div>
+	</body>
+	<script>
+	var #grid = $('#unBruhMomento').masonry({
+		columnWidth: 0.1%
+	});
+	$grid.imagesLoaded().progress( function() {
+		$grid.masonry('layout');
+	});
+	var #grid2 = $('#dosBruhMomento').masonry({
+		columnWidth: 0.1%
+	});
+	$grid2.imagesLoaded().progress( function() {
+		$grid.masonry('layout');
+	});
+	$('.columns').masonry({
+		columnWidth: 0.1%
+	});
+	</script>
+</html>

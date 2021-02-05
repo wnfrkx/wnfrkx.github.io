@@ -1,0 +1,34 @@
+#everything {
+	background-image: url('media/Background.png');
+	background-size: 100% auto;
+	background-repeat: repeat-y;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+@font-face {
+font-family: "kakukaku1";
+src: url("wnfrkx.github.io/eport/fonts/2n4/kakukaku1-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Palamecia Titling";
+src: url("wnfrkx.github.io/eport/fonts/2n4/palamecia-titling-webfont.woff") format("woff");
+}
+
+.palTitl {
+	font-family: Palamecia Titling;
+}
+
+.kakukaku {
+	font-family: kakukaku1;
+}
+
+.x310-1040 { background-image: url('frame/310x1040.png'); }
+.x317-760 { background-image: url('frame/317x760.png'); }
+.x486-973 { background-image: url('frame/486x973.png'); }
+.x992-109 { background-image: url('frame/992x109.png'); }
+.x992-178 { background-image: url('frame/992x178.png'); }
+.x1012-450 { background-image: url('frame/1012x450.png'); }
+.x1080-931 { background-image: url('frame/1080x931.png'); }

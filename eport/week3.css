@@ -1,0 +1,69 @@
+#everything {
+	background-image: url('media/Background2.png');
+	background-size: 100% auto;
+	background-attachment: fixed;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+@font-face {
+font-family: "Chrono Trigger";
+src: url("https://wnfrkx.github.io/eport/fonts/3/curtain-call-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Apple Kid";
+src: url("https://wnfrkx.github.io/eport/fonts/3/warioland4chmc-vape-webfont.woff") format("woff");
+}
+
+.x318-891 { background-image: url('frame/318x891.png'); }
+.x488-665 { background-image: url('frame/488x665.png'); }
+.x488-760 { background-image: url('frame/488x760.png'); }
+.x488-912 { background-image: url('frame/488x912.png'); }
+.x488-950 { background-image: url('frame/488x950.png'); }
+.x992-109 { background-image: url('frame/992x109 3.png'); }
+.x992-178 { background-image: url('frame/992x178 3.png'); }
+.x992-247 { background-image: url('frame/992x247.png'); }
+.x1017-450 { background-image: url('frame/1017x450.png'); }
+.x1017-600 { background-image: url('frame/1017x600.png'); }
+.x1085-756 { background-image: url('frame/1085x756.png'); }
+
+.chronTrig {
+	font-family: Chrono Trigger;
+	color: black;
+}
+
+.curtCall {
+	font-family: Curtain Call;
+}
+
+.appKid {
+	font-family: Apple Kid;
+	font-size: 40px;
+}
+
+#unBruhMomento {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.column-5 {
+	margin: 0% 1%;
+	padding: 0%;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 180px;
+	height: 360px;
+	background-color: white;
+}
+
+.column-4 {
+	margin: 0% 1%;
+	padding: 0%;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 230px;
+	height: 345px;
+	background-color: white;
+}

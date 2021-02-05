@@ -9,7 +9,7 @@
 
 @font-face {
 font-family: "Rubber Stamp for Cu";
-src: url("https://wnfrkx.github.io/eport/fonts/2n4/rubberstamp-qw-96-webfont.woff") format("woff");
+src: url("https://wnfrkx.github.io/eport/fonts/2n4/rubberstamp-qw96-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -19,7 +19,7 @@ src: url("https://wnfrkx.github.io/eport/fonts/2n4/isabel-black-webfont.woff") f
 
 @font-face {
 font-family: "Glegoo";
-src: url("wnfrkx.github.io/eport/fonts/2n4/glegoo-regular-webfont.woff") format("woff");
+src: url("https://wnfrkx.github.io/eport/fonts/2n4/glegoo-regular-webfont.woff") format("woff");
 }
 
 .x486-523 { background-image: url('frame/486x523.png'); }

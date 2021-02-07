@@ -1,0 +1,74 @@
+#everything {
+	background-image: url('media/Background HP.png');
+	background-size: 100% auto;
+	background-attachment: fixed;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+.bigFont {
+	font-size: 40px;
+}
+
+@font-face {
+font-family: "Aquire";
+src: url("https://wnfrkx.github.io/eport/fonts/ha/aquire-bw0ox-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Pistilli";
+src: url("https://wnfrkx.github.io/eport/fonts/ha/pistilli-roman-demo-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Futura";
+src: url("https://wnfrkx.github.io/eport/fonts/ha/futura_medium_bt-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "kakukaku1";
+src: url("https://wnfrkx.github.io/eport/fonts/2n4/kakukaku1-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Palamecia Titling";
+src: url("https://wnfrkx.github.io/eport/fonts/2n4/palamecia_titling-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Chrono Trigger";
+src: url("https://wnfrkx.github.io/eport/fonts/3/curtain-call-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Apple Kid";
+src: url("https://wnfrkx.github.io/eport/fonts/3/warioland4chmc-vape-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Isabel Black";
+src: url("https://wnfrkx.github.io/eport/fonts/2n4/isabel-black-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Glegoo";
+src: url("https://wnfrkx.github.io/eport/fonts/2n4/glegoo-regular-webfont.woff") format("woff");
+}
+
+.aquire { font-family: Aquire; }
+.pistilli { font-family: Pistilli; }
+.futura { font-family: Futura; }
+.palTitl { font-family: Palamecia Titling; }
+.kakukaku { font-family: kakukaku1; }
+.chronTrig { font-family: Chrono Trigger; color: white; font-size: 45px; line-height: 0.9; }
+.appKid { font-family: Apple Kid; font-size: 30px; }
+.isBlack { font-family: Isabel Black; }
+.glegoo { font-family: Glegoo; }
+
+.logos:hover { border: 5px groove #123456; transition: 0.2s;}
+
+.x488-1140 { background-image: url('frame/488x1140.png'); }
+.x763-606 { background-image: url('frame/763x606.png'); }
+.x992-109 { background-image: url('frame/992x109 h.png'); }
+.x992-178 { background-image: url('frame/992x178 h.png'); }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+	<head>
+		<title>foliation</title>
+		<link rel="stylesheet" href="Foliation.css">
+		<script src="Foliation.js"></script>
+	</head>
+	<body>
+		<div id="gameFrame">
+			<div class="gameScreens" id="screen1">
+				<img src="foliation/Title Screen.png" width="915" height="605">
+				<img id="startButton" onmouseover="StartB()" onmouseleave="StartA()" onclick="showInstructions()" src="foliation/StartA.png" width="202.5" height="32" class="absolute" style="top:92%">
+				<audio id="bgMusic" loop>
+				<source src="foliation/mkts.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+				</audio>
+			</div>
+			<div class="gameScreens" id="screen2">
+				<img src="foliation/Intro.png" width="915" height="605">
+				<img id="continueButton" width="292.5" height="32" onmouseOver="ContinueB()" onmouseleave="ContinueA()" onclick="chooseCharacter()" src="foliation/ContinueA.png" class="absolute" style="top:92%;left:80%">
+			</div>
+			<div class="gameScreens" id="screen3">
+				<img src="foliation/Character Select.png" width="915" height="605">
+				<img id="knuckles" onclick="goFoliated()" src="foliation/Knuckles.png" width="235" height="235" class="absolute" style="top:315px;left:245px">
+				<img id="dk" onclick="goNon()" src="foliation/DK.png" width="235" height="235" class="absolute" style="top:315px;left:680px">
+			</div>
+			<div class="gameScreens" id="screen4">
+				<img src="foliation/Knux Info.png" width="915" height="605">
+				<img id="hotdog" onmouseover="HotdogB()" onmouseleave="HotdogA()" onclick="folToBack()" src="foliation/GoBackA.png" width="137.25" height="16" class="absolute" style="top:9%;left:18%">
+			</div>
+			<div class="gameScreens" id="screen5">
+				<img src="foliation/DK Info.png" width="915" height="605">
+				<img id="canal" onmouseover="CanalB()" onmouseleave="CanalA()" onclick="nonToBack()" src="foliation/GoBackA.png" width="137.25" height="16" class="absolute" style="top:9%;left:18%">
+			</div>
+		</div>
+	</body>
+</html>

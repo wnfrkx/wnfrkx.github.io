@@ -1,0 +1,90 @@
+html, body {
+	height: 100%;
+	margin: 0%;
+	line-height: 1;
+}
+
+#gameFrame {
+	width: 915px;
+	height: 605px;
+	background-color: #7888ff;
+	font-family: kakukaku1;
+	text-align: center;
+	position: relative;
+	overflow: visible;
+}
+
+#startButton:hover, #continueButton:hover, #knuckles:hover, #dk:hover, #hotdog:hover, #canal:hover {
+	cursor: pointer;
+}
+
+#knuckles:hover, #dk:hover {
+	border: 3px solid #123456;
+	transition: 0.2s;
+}
+
+.columns {
+	width: 100%;
+}
+
+.gameScreens {
+	display: none;
+}
+
+#screen1 {
+	display: block;
+}
+
+p {
+	margin-top: 0px;
+}
+
+.absolute {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.gameScreens {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.gameHeader {
+	font-size: 69px;
+	line-height: 1;
+}
+
+.gameButtons {
+	font-family: Palamecia Titling;
+	font-size: 69px;
+	background-color: green;
+	border: 10px solid black;
+	border-radius: 10px;
+	padding: 20px 10px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.gameText {
+	font-size: 36px;
+	text-align: justify;
+	text-align-last: center;
+}
+
+.gameButtons:hover {
+	box-shadow: 10px 10px 10px #123456;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 914px) {
+	#gameFrame { width: 705px; height: 470px; overflow: visible; }
+	.gameHeader { font-size: 40px; }
+	.gameButtons { font-size: 40px; }
+	.gameText { font-size: 20px; }
+}

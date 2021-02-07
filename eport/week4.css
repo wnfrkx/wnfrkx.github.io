@@ -22,23 +22,25 @@ font-family: "Glegoo";
 src: url("https://wnfrkx.github.io/eport/fonts/2n4/glegoo-regular-webfont.woff") format("woff");
 }
 
-.x486-523 { background-image: url('frame/486x523.png'); }
-.x992-109 { background-image: url('frame/992x109 4.png'); }
-.x992-178 { background-image: url('frame/992x178 4.png'); }
-.x1012-450 { background-image: url('frame/1012x450 4.png'); }
+.x486-523 { background-image: url('frame/498x428.png'); }
+.x992-109 { background-image: url('frame/992x178 4.png'); }
+.x992-178 { background-image: url('frame/1017x229.png'); }
+.x1012-450 { background-image: url('frame/1017x632.png'); }
 .x1080-656 { background-image: url('frame/1080x656.png'); }
 
 .rubberStamp {
 	font-family: Rubber Stamp for Cu;
-	color: black;
+	color: #4c3f3a;
 }
 
 .isBlack {
 	font-family: Isabel Black;
+	color: #ffe4bd;
 }
 
 .glegoo {
 	font-family: Glegoo;
+	color: #ffe4bd;
 }
 
 #unBruhMomento {

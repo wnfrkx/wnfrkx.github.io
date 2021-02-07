@@ -26,7 +26,7 @@ li {
 }
 
 li:hover {
-	background-color: #6699ff;
+	opacity: 0.8;
 	font-weight: bold;
 	transition: 0.2s;
 }
@@ -51,68 +51,6 @@ a {
 
 ::-webkit-scrollbar-thumb:hover {
   background: brown; 
-}
-
-#svg1, #svg2, #svg3, #svg4 {
-	position: relative;
-	display: inline-block;
-	margin-bottom: -5px;
-	box-sizing: border-box;
-}
-
-#one, #two, #three, #four, #five, #six, #seven, #eight {
-	font-family: Raleway;
-	color: white;
-	font-size: 100px;
-	font-weight: bold;
-	position: absolute;
-	transform: translate(-50%, -50%);
-}
-
-#one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover {
-	cursor: pointer;
-	color: green;
-	transition: 0.2s;
-}
-
-#one, #five { left: 5%; }
-#two, #six { left: 45%; }
-#three, #seven { left: 60%; }
-#four, #eight { left: 95% ; }
-
-#textOne, #textTwo, #textThree, #textFour {
-	position: absolute;
-	padding: 5%;
-	box-sizing: border-box;
-	font-family: Raleway;
-}
-
-#textOne { top: 0%; left: 55%; width: 45%; text-align: right; }
-#textTwo { top: 100%; right: 55%; width: 45%; text-align: left; }
-#textThree { top: 200%; left: 55%; width: 45%; text-align: right; }
-#textFour { top: 300%; right: 55%; width: 45%; text-align: left; }
-
-.titles {
-	font-size: 60px;
-}
-
-.subs {
-	font-size: 32px;
-}
-
-.hold {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 80%;
-	transform: translate(-50%, -50%);
-}
-
-.titles:hover {
-	cursor: pointer;
-	font-weight: bold;
-	text-shadow: 2px 2px blue, 4px 4px #123456;
-	transition: 0.2s;
 }
 
 /* Week-exclusive general styles */
@@ -161,8 +99,8 @@ a {
 .column-2 {
 	float: left;
 	position: relative;
-	min-width: 48%;
-	max-width: 48%;
+	min-width: 49%;
+	max-width: 49%;
 	min-height: 95%;
 	max-height: 95%;
 	padding: 5% 3%;
@@ -174,8 +112,8 @@ a {
 .column-3 {
 	float: left;
 	position: relative;
-	min-width: 31.3%;
-	max-width: 31.3%;
+	min-width: 32%;
+	max-width: 32%;
 	min-height: 99%;
 	max-height: 99%;
 	padding: 2%;
@@ -192,7 +130,7 @@ a {
 .weekText {
 	margin: 4% 0%;
 	box-sizing: border-box;
-	font-size: 30px;
+	font-size: 24px;
 	text-align: justify;
 	text-align-last: center;
 	padding: 0% 4%;
@@ -207,18 +145,67 @@ a {
 }
 
 @font-face {
-font-family: "Butler";
-src: url("https://wnfrkx.github.io/eport/fonts/ha/butler_regular-webfont.woff") format("woff");
+font-family: "Aquire";
+src: url("https://wnfrkx.github.io/eport/fonts/ha/aquire-bw0ox-webfont.woff") format("woff");
 }
 
 @font-face {
-font-family: "Neothic";
-src: url("https://wnfrkx.github.io/eport/fonts/ha/neothic-webfont.woff") format("woff");
+font-family: "Pistilli";
+src: url("https://wnfrkx.github.io/eport/fonts/ha/pistilli-roman-demo-webfont.woff") format("woff");
 }
+
+@font-face {
+font-family: "Futura";
+src: url("https://wnfrkx.github.io/eport/fonts/ha/futura_medium_bt-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "kakukaku1";
+src: url("https://wnfrkx.github.io/eport/fonts/2n4/kakukaku1-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Palamecia Titling";
+src: url("https://wnfrkx.github.io/eport/fonts/2n4/palamecia_titling-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Chrono Trigger";
+src: url("https://wnfrkx.github.io/eport/fonts/3/curtain-call-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Apple Kid";
+src: url("https://wnfrkx.github.io/eport/fonts/3/warioland4chmc-vape-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Isabel Black";
+src: url("https://wnfrkx.github.io/eport/fonts/2n4/isabel-black-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Glegoo";
+src: url("https://wnfrkx.github.io/eport/fonts/2n4/glegoo-regular-webfont.woff") format("woff");
+}
+
+.aquire { font-family: Aquire; }
+.pistilli { font-family: Pistilli; }
+.futura { font-family: Futura; }
+.palTitl { font-family: Palamecia Titling; }
+.kakukaku { font-family: kakukaku1; }
+.chronTrig { font-family: Chrono Trigger; color: white; font-size: 45px; line-height: 0.9; }
+.appKid { font-family: Apple Kid; font-size: 30px; }
+.isBlack { font-family: Isabel Black; }
+.glegoo { font-family: Glegoo; }
 
 @media only screen and (max-width: 1000px) {
 	.titles { font-size: 40px; }
 	.subs { font-size: 24px; }
 	.weekFlix { height: 70%; }
 	.letterP { max-width: 100%; }
+}
+
+@media only screen and (max-width: 914px) {
+	#foliatedGame { width: 750px; height: 500px; overflow-x: visible; }
 }

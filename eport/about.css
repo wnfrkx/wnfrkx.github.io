@@ -1,0 +1,32 @@
+#everything {
+	background-image: url('media/Background AB.png');
+	background-size: 100% auto;
+	background-attachment: fixed;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+@font-face {
+font-family: "Aquire";
+src: url("https://wnfrkx.github.io/eport/fonts/ha/aquire-bw0ox-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Pistilli";
+src: url("https://wnfrkx.github.io/eport/fonts/ha/pistilli-roman-demo-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: "Futura";
+src: url("https://wnfrkx.github.io/eport/fonts/ha/futura_medium_bt-webfont.woff") format("woff");
+}
+
+.aquire { font-family: Aquire; }
+.pistilli { font-family: Pistilli; }
+.futura { font-family: Futura; }
+
+.x1017-150 { background-image: url('frame/1017x150.png'); }
+.x1017-219 { background-image: url('frame/1017x219.png'); }
+.x1017-700 { background-image: url('frame/1017x700.png'); }
+.x1017-900 { background-image: url('frame/1017x900.png'); }

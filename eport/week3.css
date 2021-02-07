@@ -17,21 +17,26 @@ font-family: "Apple Kid";
 src: url("https://wnfrkx.github.io/eport/fonts/3/warioland4chmc-vape-webfont.woff") format("woff");
 }
 
-.x318-891 { background-image: url('frame/318x891.png'); }
-.x488-665 { background-image: url('frame/488x665.png'); }
-.x488-760 { background-image: url('frame/488x760.png'); }
-.x488-912 { background-image: url('frame/488x912.png'); }
-.x488-950 { background-image: url('frame/488x950.png'); }
-.x992-109 { background-image: url('frame/992x109 3.png'); }
-.x992-178 { background-image: url('frame/992x178 3.png'); }
-.x992-247 { background-image: url('frame/992x247.png'); }
-.x1017-450 { background-image: url('frame/1017x450.png'); }
+.x325-762 { background-image: url('frame/325x762.png'); }
+.x325-891 { background-image: url('frame/325x891.png'); }
+.x498-633 { background-image: url('frame/498x633.png'); }
+.x498-684 { background-image: url('frame/498x684.png'); }
+.x498-703 { background-image: url('frame/498x703.png'); }
+.x498-884 { background-image: url('frame/498x884.png'); }
+.x498-931 { background-image: url('frame/498x931.png'); }
+.x498-1055 { background-image: url('frame/498x1055.png'); }
+.x992-109 { background-image: url('frame/1017x148.png'); }
+.x992-178 { background-image: url('frame/1017x215.png'); }
+.x992-247 { background-image: url('frame/1017x282.png'); }
+.x1017-500 { background-image: url('frame/1017x500.png'); }
 .x1017-600 { background-image: url('frame/1017x600.png'); }
-.x1085-756 { background-image: url('frame/1085x756.png'); }
+.x1017-720 { background-image: url('frame/1017x720.png'); }
 
 .chronTrig {
 	font-family: Chrono Trigger;
-	color: black;
+	color: white;
+	font-size: 75px;
+	line-height: 0.9;
 }
 
 .curtCall {
@@ -40,7 +45,11 @@ src: url("https://wnfrkx.github.io/eport/fonts/3/warioland4chmc-vape-webfont.wof
 
 .appKid {
 	font-family: Apple Kid;
-	font-size: 40px;
+	font-size: 30px;
+}
+
+.bigFont {
+	font-size: 50px;
 }
 
 #unBruhMomento {

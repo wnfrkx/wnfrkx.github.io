@@ -6,6 +6,8 @@
 		<link rel="shortcut icon" href="mmb fav.png">
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 		<script src="mmb.js"></script>
 	</head>
 	<body bgcolor="#fafafa" onload="start()" onkeydown="mayNapindot(event)">
@@ -40,26 +42,42 @@
 				<div class="num" id="ent" onclick="clicked('ent')">Enter</div>
 			</div>
 			<div id="menuSel">
-				<h1>Menu</h1>
-				<div class="indivSel" onclick="setMode(1)" id="addSel"><img src="add.png" class="uiLogo"><br>Addition</div>
-				<div class="indivSel" onclick="setMode(2)" id="subtSel"><img src="subt.png" class="uiLogo"><br>Subtraction</div>
-				<div class="indivSel" onclick="setMode(3)" id="multSel"><img src="mult.png" class="uiLogo"><br>Multiplication</div>
-				<div class="indivSel" onclick="setMode(4)" id="divSel"><img src="div.png" class="uiLogo"><br>Division</div><br>
-				<div class="indivSel" onclick="setMode(5)" id="mixSel"><img src="mix.png" class="uiLogo"><br>Mix</div>
+				<h1>Arithmetic</h1>
+				<div class="operations">
+					<div class="indivSel" onclick="setMode(1)" id="addSel"><span class="absolute"><img src="add.png" class="uiLogo"><br>Addition</div>
+					<div class="indivSel" onclick="setMode(2)" id="subtSel"><span class="absolute"><img src="subt.png" class="uiLogo"><br>Subtraction</div>
+					<div class="indivSel" onclick="setMode(3)" id="multSel"><span class="absolute"><img src="mult.png" class="uiLogo"><br>Multiplication</div>
+					<div class="indivSel" onclick="setMode(4)" id="divSel"><span class="absolute"><img src="div.png" class="uiLogo"><br>Division</div>
+					<div class="indivSel" onclick="setMode(5)" id="mixSel"><span class="absolute"><img src="mix.png" class="uiLogo"><br>Shuffle</div>
+				</div>
+				<h1>Gas Laws</h1>
+				<div class="operations">
+					<div class="indivSel" onclick="setMode(6)" id="boyleSel"><span class="absolute"><img src="boyle.png" class="uiLogo"><br>Boyle</div>
+					<div class="indivSel" onclick="setMode(7)" id="charlesSel"><span class="absolute"><img src="charles.png" class="uiLogo"><br>Charles</div>
+					<div class="indivSel" onclick="setMode(8)" id="gaySel"><span class="absolute"><img src="gay.png" class="uiLogo"><br>Gay-Lussac</div>
+					<div class="indivSel" onclick="setMode(9)" id="avogSel"><span class="absolute"><img src="avogadro.png" class="uiLogo"><br>Avogadro</div>
+					<div class="indivSel" onclick="setMode(10)" id="combSel"><span class="absolute"><img src="balloon.png" class="uiLogo"><br>Combined Gas</div>
+					<div class="indivSel" onclick="setMode(11)" id="shuffleSel"><span class="absolute"><img src="mix.png" class="uiLogo"><br>Shuffle</div>
+				</div>
 			</div>
 			<form id="gameSel" action="">
-				<h1>Select Difficulty</h1>
-				<input type="radio" name="digits" value="1"><label for="1">Level 0</label><br>
-				<input type="radio" name="digits" value="2"><label for="2">Level 1</label><br>
-				<input type="radio" name="digits" value="3"><label for="3">Level 2</label><br>
-				<input type="radio" name="digits" value="4"><label for="4">Level 3</label><br>
-				<input type="radio" name="digits" value="5"><label for="5">Level 4</label><br>
-				<input type="radio" name="digits" value="6"><label for="6">Level 5</label><br><br>
+				<span id="arithmeticSel"><h1>Input Number of Digits<br>for Practice</h1>
+				<input type="text" id="digit1" class="numberType" maxlength="1"> by 
+				<input type="text" id="digit2" class="numberType" maxlength="1">
 				<span id="remallow">Allow remainders? <input type="radio" name="remallow" value="yes"><label for="yes">Yes</label>
 				<input type="radio" name="remallow" value="no"><label for="no">No</label><br><b>Tip:</b> Use the 'r' button or type 'r' to indicate the remainder.<br>Example: 5r6 for "5 remainder 6"<br><br></span>
+				</span>
+				<span id="gasLawsSel">
+					Before starting, it is important to take note of the following:<br>Pressure is in mmHg or atm (depending on the problem)<br>Temperature must always be in Kelvin<br>Volume is in mL or L<br>Answer must be rounded off to 2 decimal places or more<br><br>
+				</span>
 				<div onclick="letsGo()" class="button">Let's Go!</div><br>
 				<div onclick="menu()" class="button">Back</div>
 			</form>
 		</center>
 	</body>
+	<script>
+		$('.operations').masonry({
+			columnWidth: 1
+		});
+	</script>
 </html>

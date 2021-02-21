@@ -3,26 +3,21 @@ html, body {
 	margin: 10px;
 	font-family: Raleway;
 }
-
 #quizholder {
 	display: none;
 }
-
 h1 {
 	font-size: 50px;
 }
-
 p {
 	font-size: 40px;
 }
-
 #answer {
 	font-family: Raleway;
 	font-size: 30px;
 	width: 300px;
 	padding: 10px;
 }
-
 #level {
 	font-size: 30px;
 	display: none;
@@ -30,7 +25,6 @@ p {
 	top: 20px;
 	left: 20px;
 }
-
 #levNum {
 	font-weight: bold;
 	min-width: 60px;
@@ -42,12 +36,10 @@ p {
 	display: inline-block;
 	margin: 5px;
 }
-
 #levNum:hover {
 	box-shadow: 5px 5px #123456;
 	transition: 0.2s;
 }
-
 #menu {
 	display: none;
 	background-color: #b9b9b9;
@@ -64,6 +56,13 @@ p {
 	cursor: pointer;
 	transition: 0.2s;
 
+}
+
+.absolute {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .button {
@@ -98,8 +97,9 @@ p {
 	border-radius: 5px;
 	margin: 10px;
 	padding: 10px;
-	width: 200px;
-	height: 200px;
+	width: 225px;
+	height: 225px;
+	box-sizing: border-box;
 	display: inline-block;
 }
 
@@ -112,7 +112,7 @@ p {
 }
 
 .uiLogo {
-	width: 140px;
+	width: 100px;
 }
 
 .num {
@@ -133,11 +133,21 @@ p {
 	transition: 0.2s;
 }
 
+.numberType {
+	font-family: Raleway;
+	font-size: 40px;
+	padding: 5px;
+	width: 69px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
 #gameSel {
 	font-size: 30px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	display: none;
+	width: 80%;
 }
 
 #guide {
@@ -153,4 +163,10 @@ p {
 	position: absolute;
 	left: 20px;
 	top: 20px;
+}
+
+.operations {
+	position: relative;
+	width: 980px;
+	margin: 0px;
 }

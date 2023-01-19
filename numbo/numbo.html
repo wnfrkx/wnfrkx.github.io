@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+	<head>
+		<title>NUMBO CARD GENERATOR</title>
+		<script src="jquery.json"></script>
+		<link rel="shortcut icon" href="n.png">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+		<style>
+			p { margin: 0px; }
+			img { width: 73px; height: 73px; display: inline-block; margin-top: -5px; padding: 0px; }
+			#desc { border: 5px solid black; padding: 20px; position: absolute; left: 20px; top: 150px; font-family: Montserrat; width: 400px; }
+			#generate { padding: 10px; font-family: Montserrat; margin: 20px 0px;}
+			#generate:hover { cursor: pointer; font-weight: bold; }
+		</style>
+	</head>
+	<body onload="start()">
+		<center>
+			<p><font size="6" face="Montserrat">Numbo Card Generator</font></p>
+			<p><font size="4" face="Montserrat">made by Julian Gatchalian (Maksci alumnus)</font></p><br>
+		<div id="card"><img src="n.png"><img src="u.png"><img src="m.png"><img src="b.png"><img src="o.png"><br>
+		<img src="0.png" id="1"><img src="0.png" id="2"><img src="0.png" id="3"><img src="0.png" id="4"><img src="0.png" id="5"><br>
+		<img src="0.png" id="6"><img src="0.png" id="7"><img src="0.png" id="8"><img src="0.png" id="9"><img src="0.png" id="10"><br>
+		<img src="0.png" id="11"><img src="0.png" id="12"><img src="mathsoc.png"><img src="0.png" id="13"><img src="0.png" id="14"><br>
+		<img src="0.png" id="15"><img src="0.png" id="16"><img src="0.png" id="17"><img src="0.png" id="18"><img src="0.png" id="19"><br>
+		<img src="0.png" id="20"><img src="0.png" id="21"><img src="0.png" id="22"><img src="0.png" id="23"><img src="0.png" id="24"></div>
+		<button id="generate" onclick="start()">Generate!</button>
+		</center>
+		<div id="desc">This is a random numbo card generator for the Numbo game played during Math Week. To create a new card configuration, click "Generate" at the bottom of the card.<br><br><b>Taking a Screenshot</b><br>To take a screenshot of the card, (1) find Snipping Tool on your laptop, or (2) press the Print Screen button on your keyboard and crop the image.<br><br><b>Placing the Screenshot in Word</b><br>The dimensions of the numbo card should be 365 by 438 px, or an aspect ratio of 5:6.</div>
+	</body>
+	<script>
+	var used = new Array(76);
+	var num = [];
+	var number;
+	var col = [0,1,2,3,4,0,1,2,3,4,0,1,3,4,0,1,2,3,4,0,1,2,3,4]
+	function start() {
+		var num = [];
+		var number = 0;
+		var used = [];
+		var used = new Array(76);
+		for (var i = 0; i < 24; i++) {
+			do { number = col[i] * 15 + Math.floor(Math.random() * 15) + 1; }
+			while(used[number]);
+			used[number] = true;
+			num.push(number);
+		}
+		for (var i = 1; i < 25; i++) {
+			var file = document.getElementById(i);
+			file.src = num[i-1] + ".png";
+		}
+	}
+	</script>
+</html>

@@ -1,0 +1,99 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+	font-family: Nunito;
+}
+
+button {
+	font-family: Nunito;
+	padding: 20px;
+	background-color: #fafafa;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 20px 0px;
+	font-size: 20px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #aaaaaa;
+	font-weight: bold;
+	transition: 0.1s;
+}
+
+#chrismar {
+	position: absolute;
+}
+
+#linart {
+	margin-left: 20px;
+}
+
+#navi {
+	border: 5px solid black;
+	border-radius: 20px;
+	padding: 20px;
+	margin-left: 20px;
+}
+
+#navi td {
+	padding: 20px;
+}
+
+.jc2 {
+	width: 40px;
+	border-radius: 20px;
+	border: 1px solid black;
+}
+
+#elle {
+	border-radius: 5px;
+	border: 2px solid black;
+	width: 250px;
+	padding: 0px;
+	margin: 0px;
+	display: none;
+	position: absolute;
+	background-color: #fafafa;
+}
+
+#aedan {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#aedan li {
+	margin: 0px;
+	padding: 10px;
+}
+
+#aedan .ivan:hover {
+	cursor: pointer;
+}
+
+#charles:hover { background-color: #f898a4; }
+#margaux:hover { background-color: #fcda9c; }
+#alyiah:hover { background-color: #f7faa1; }
+#cj:hover { background-color: #b4f6a4; }
+#alyssa:hover { background-color: #9be0f1; }
+#romynah:hover { background-color: #999999; }
+#justin:hover { background-color: #cccccc; }
+
+#jane {
+	font-weight: bold;
+}
+
+#luigi {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 30px;
+	background-color: rgba(0,0,0,0.9);
+}
+
+#chard {
+	font-size: 20px;
+	color: white;
+}

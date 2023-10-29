@@ -291,7 +291,7 @@ function shuffleList(a,b) {
 }
 
 function changeBackground(a) {
-	document.body.style.backgroundImage = "url('bgs/ +" a + ".PNG')";
+	document.body.style.backgroundImage = "url('bgs/" + a + ".PNG')";
 }
 function randomize(a,b) { return Math.floor(Math.random() * (b-a+1)) + a; }
 function display(a,b) { document.getElementById(a).innerHTML = b; }

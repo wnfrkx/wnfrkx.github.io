@@ -1,0 +1,104 @@
+body, html {
+	margin: 10px;
+	height: 100%;
+}
+
+body {
+	background-image: url('bg.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+	font-family: Shantell Sans;
+	font-weight: bold;
+	line-height: 0.9;
+}
+
+h1 {
+	margin-bottom: 5px;
+	font-size: 48px;
+}
+
+p {
+	font-family: Single Day;
+	font-size: 36px;
+	line-height: 0.9;
+	margin: 0.6em;
+}
+
+#holder {
+	width: 1320px;
+}
+
+.fruitImages {
+	display: inline-block;
+	width: auto;
+	height: 140px;
+	position: relative;
+	margin: 16px;
+}
+
+.fruitImages:hover {
+	filter: drop-shadow(12px 12px 12px #666666);
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+#fruits {
+	box-sizing: border-box;
+	padding: 0px 20px;
+}
+
+#loading {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#nmixx {
+	box-sizing: border-box;
+	margin: 50px;
+	height: 400px;
+}
+
+#prompt {
+	display: none;
+	width: 50%;
+}
+
+#promptFruit {
+	display: block;
+	margin-bottom: 20px;
+}
+
+#promptImage {
+	display: none;
+	height: auto;
+	max-width: 100%;
+}
+
+#promptUl {
+	list-style-type: none;
+	display: none;
+}
+
+.promptLi {
+	background-color: #339999;
+	margin: 20px;
+	font-family: Single Day;
+	font-size: 28px;
+	padding: 15px;
+	margin: 10px;
+	border-radius: 20px;
+	display: inline-block;
+	user-select: none;
+}
+
+.promptLi:hover {
+	background-color: #339966;
+	filter: drop-shadow(12px 12px 12px 12px #666666);
+	transition: 0.2s;
+}

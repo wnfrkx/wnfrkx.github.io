@@ -207,7 +207,7 @@ function initiateFruit(a) {
 			}
 			break;
 		case "mango":
-			display("promptSelected","The shape of your body is a map");
+			display("promptSelected","The shape of your body is a flag");
 			changeBackground("yellow");
 			rng = randomize(1,12);
 			show("promptImage");

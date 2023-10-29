@@ -258,7 +258,7 @@ function initiateFruit(a) {
 			rng = randomize(2,4);
 			show("promptImage");
 			display("promptText","Fill up the table below using numbers from 1 to 4 such that there are no duplicate numbers per row and column. Also, abide by the operations for every color block!<br><br>You can view a sample solution <a href='mathdoku/Slide1.png' target='_blank'>here</a>.");
-			document.getElementById("promptImage").src = "mathdoku/Slide" + rng + ".png";
+			document.getElementById("promptImage").src = "mathdoku/Slide" + rng + ".PNG";
 			break;
 		case "calamansi":
 			display("promptSelected","Choke lang yan")
@@ -291,7 +291,7 @@ function shuffleList(a,b) {
 }
 
 function changeBackground(a) {
-	document.body.style.backgroundImage = a + ".png')";
+	document.body.style.backgroundImage = "url('bgs/ +" a + ".PNG')";
 }
 function randomize(a,b) { return Math.floor(Math.random() * (b-a+1)) + a; }
 function display(a,b) { document.getElementById(a).innerHTML = b; }

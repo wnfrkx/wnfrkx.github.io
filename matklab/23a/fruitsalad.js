@@ -257,7 +257,7 @@ function initiateFruit(a) {
 			changeBackground("red");
 			rng = randomize(2,4);
 			show("promptImage");
-			display("promptText","Fill up the table below using numbers from 1 to 4 such that there are no duplicate numbers per row and column. Also, abide by the operations for every color block!<br><br>You can view a sample solution <a href='mathdoku/Slide1.png' target='_blank'>here</a>.");
+			display("promptText","Fill up the table below using numbers from 1 to 4 such that there are no duplicate numbers per row and column. Also, abide by the operations for every color block!<br><br>You can view a sample solution <a href='mathdoku/Slide1.PNG' target='_blank'>here</a>.");
 			document.getElementById("promptImage").src = "mathdoku/Slide" + rng + ".PNG";
 			break;
 		case "calamansi":

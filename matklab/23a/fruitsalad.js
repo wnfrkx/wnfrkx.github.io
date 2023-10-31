@@ -97,7 +97,7 @@ function initiateFruit(a) {
 			display("promptSelected","Tanghalan ng mga aso")
 			changeBackground("green");
 			rng = randomize(1,9);
-			fruit = fruits[randomize(1,15)];
+			fruit = fruits[randomize(0,14)];
 			switch(rng) {
 				case 1: display("promptText","Would you place " + fruit + " on pizza?"); break;
 				case 2: display("promptText","Would you eat " + fruit + "-flavored ice cream?"); break;

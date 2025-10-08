@@ -146,7 +146,7 @@ body, html {
 /* Game Over */
 
 #gameOverField {
-	display: block;
+	display: none;
 }
 
 #gameOverField p { line-height: 1; }
